@@ -1,902 +1,902 @@
 <div class="row">
     <div class="col-lg-12 grid-margin">
-        <x-template.card>
-            <x-template.card-body>
-                <x-slot name="description"> &lt;x-template.icon&gt; <code>icon-name</code> &lt;/x-template.icon&gt; </x-slot>
+        <x-card>
+            <x-card-body>
+                <x-slot name="description"> &lt;x-icon&gt; <code>icon-name</code> &lt;/x-icon&gt; </x-slot>
                 <div class="row icons-list">
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> access-point </x-template.icon> access-point
+                        <x-icon> access-point </x-icon> access-point
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> access-point-network </x-template.icon> access-point-network
+                        <x-icon> access-point-network </x-icon> access-point-network
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account</x-template.icon> account
+                        <x-icon>account</x-icon> account
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-box</x-template.icon> account-box
+                        <x-icon>account-box</x-icon> account-box
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-box-outline</x-template.icon> account-box-outline
+                        <x-icon>account-box-outline</x-icon> account-box-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-card-details</x-template.icon> account-card-details
+                        <x-icon>account-card-details</x-icon> account-card-details
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-check</x-template.icon> account-check
+                        <x-icon>account-check</x-icon> account-check
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-circle</x-template.icon> account-circle
+                        <x-icon>account-circle</x-icon> account-circle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-convert</x-template.icon> account-convert
+                        <x-icon>account-convert</x-icon> account-convert
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-key</x-template.icon> account-key
+                        <x-icon>account-key</x-icon> account-key
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account</x-template.icon> account
+                        <x-icon>account</x-icon> account
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-minus</x-template.icon> account-minus
+                        <x-icon>account-minus</x-icon> account-minus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-multiple</x-template.icon> account-multiple
+                        <x-icon>account-multiple</x-icon> account-multiple
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-multiple-minus</x-template.icon> account-multiple-minus
+                        <x-icon>account-multiple-minus</x-icon> account-multiple-minus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-multiple-outline</x-template.icon> account-multiple-outline
+                        <x-icon>account-multiple-outline</x-icon> account-multiple-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-multiple-plus</x-template.icon> account-multiple-plus
+                        <x-icon>account-multiple-plus</x-icon> account-multiple-plus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-network</x-template.icon> account-network
+                        <x-icon>account-network</x-icon> account-network
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-off</x-template.icon> account-off
+                        <x-icon>account-off</x-icon> account-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-outline</x-template.icon> account-outline
+                        <x-icon>account-outline</x-icon> account-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-plus</x-template.icon> account-plus
+                        <x-icon>account-plus</x-icon> account-plus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-remove</x-template.icon> account-remove
+                        <x-icon>account-remove</x-icon> account-remove
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-search</x-template.icon> account-search
+                        <x-icon>account-search</x-icon> account-search
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-settings</x-template.icon> account-settings
+                        <x-icon>account-settings</x-icon> account-settings
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-search-outline</x-template.icon> account-search-outline
+                        <x-icon>account-search-outline</x-icon> account-search-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-star</x-template.icon> account-star
+                        <x-icon>account-star</x-icon> account-star
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>account-switch</x-template.icon> account-switch
+                        <x-icon>account-switch</x-icon> account-switch
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>adjust</x-template.icon> adjust
+                        <x-icon>adjust</x-icon> adjust
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>air-conditioner</x-template.icon> air-conditioner
+                        <x-icon>air-conditioner</x-icon> air-conditioner
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>airballoon</x-template.icon> airballoon
+                        <x-icon>airballoon</x-icon> airballoon
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon>airplane</x-template.icon> airplane
+                        <x-icon>airplane</x-icon> airplane
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-charging </x-template.icon> battery-charging
+                        <x-icon> battery-charging </x-icon> battery-charging
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-charging-100 </x-template.icon> battery-charging-100
+                        <x-icon> battery-charging-100 </x-icon> battery-charging-100
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-charging-20 </x-template.icon> battery-charging-20
+                        <x-icon> battery-charging-20 </x-icon> battery-charging-20
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-charging-30 </x-template.icon> battery-charging-30
+                        <x-icon> battery-charging-30 </x-icon> battery-charging-30
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-charging-40 </x-template.icon> battery-charging-40
+                        <x-icon> battery-charging-40 </x-icon> battery-charging-40
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-charging-60 </x-template.icon> battery-charging-60
+                        <x-icon> battery-charging-60 </x-icon> battery-charging-60
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-charging-80 </x-template.icon> battery-charging-80
+                        <x-icon> battery-charging-80 </x-icon> battery-charging-80
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-charging-90 </x-template.icon> battery-charging-90
+                        <x-icon> battery-charging-90 </x-icon> battery-charging-90
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-minus </x-template.icon> battery-minus
+                        <x-icon> battery-minus </x-icon> battery-minus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-negative </x-template.icon> battery-negative
+                        <x-icon> battery-negative </x-icon> battery-negative
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-outline </x-template.icon> battery-outline
+                        <x-icon> battery-outline </x-icon> battery-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-plus </x-template.icon> battery-plus
+                        <x-icon> battery-plus </x-icon> battery-plus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-positive </x-template.icon> battery-positive
+                        <x-icon> battery-positive </x-icon> battery-positive
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> battery-unknown </x-template.icon> battery-unknown
+                        <x-icon> battery-unknown </x-icon> battery-unknown
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> beach </x-template.icon> beach
+                        <x-icon> beach </x-icon> beach
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> beats </x-template.icon> beats
+                        <x-icon> beats </x-icon> beats
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> beer </x-template.icon> beer
+                        <x-icon> beer </x-icon> beer
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> behance </x-template.icon> behance
+                        <x-icon> behance </x-icon> behance
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bell </x-template.icon> bell
+                        <x-icon> bell </x-icon> bell
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bell-off </x-template.icon> bell-off
+                        <x-icon> bell-off </x-icon> bell-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bell-outline </x-template.icon> bell-outline
+                        <x-icon> bell-outline </x-icon> bell-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bell-plus </x-template.icon> bell-plus
+                        <x-icon> bell-plus </x-icon> bell-plus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bell-ring </x-template.icon> bell-ring
+                        <x-icon> bell-ring </x-icon> bell-ring
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bell-ring-outline </x-template.icon> bell-ring-outline
+                        <x-icon> bell-ring-outline </x-icon> bell-ring-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bell-sleep </x-template.icon> bell-sleep
+                        <x-icon> bell-sleep </x-icon> bell-sleep
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> beta </x-template.icon> beta
+                        <x-icon> beta </x-icon> beta
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bible </x-template.icon> bible
+                        <x-icon> bible </x-icon> bible
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bike </x-template.icon> bike
+                        <x-icon> bike </x-icon> bike
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bing </x-template.icon> bing
+                        <x-icon> bing </x-icon> bing
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> binoculars </x-template.icon> binoculars
+                        <x-icon> binoculars </x-icon> binoculars
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bio </x-template.icon> bio
+                        <x-icon> bio </x-icon> bio
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> biohazard </x-template.icon> biohazard
+                        <x-icon> biohazard </x-icon> biohazard
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bitbucket </x-template.icon> bitbucket
+                        <x-icon> bitbucket </x-icon> bitbucket
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> black-mesa </x-template.icon> black-mesa
+                        <x-icon> black-mesa </x-icon> black-mesa
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> blackberry </x-template.icon> blackberry
+                        <x-icon> blackberry </x-icon> blackberry
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> blender </x-template.icon> blender
+                        <x-icon> blender </x-icon> blender
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> blinds </x-template.icon> blinds
+                        <x-icon> blinds </x-icon> blinds
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> block-helper </x-template.icon> block-helper
+                        <x-icon> block-helper </x-icon> block-helper
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> blogger </x-template.icon> blogger
+                        <x-icon> blogger </x-icon> blogger
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bluetooth </x-template.icon> bluetooth
+                        <x-icon> bluetooth </x-icon> bluetooth
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bluetooth-audio </x-template.icon> bluetooth-audio
+                        <x-icon> bluetooth-audio </x-icon> bluetooth-audio
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bluetooth-connect </x-template.icon> bluetooth-connect
+                        <x-icon> bluetooth-connect </x-icon> bluetooth-connect
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bluetooth-off </x-template.icon> bluetooth-off
+                        <x-icon> bluetooth-off </x-icon> bluetooth-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bluetooth-settings </x-template.icon> bluetooth-settings
+                        <x-icon> bluetooth-settings </x-icon> bluetooth-settings
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bluetooth-transfer </x-template.icon> bluetooth-transfer
+                        <x-icon> bluetooth-transfer </x-icon> bluetooth-transfer
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> blur </x-template.icon> blur
+                        <x-icon> blur </x-icon> blur
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> blur-linear </x-template.icon> blur-linear
+                        <x-icon> blur-linear </x-icon> blur-linear
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> blur-off </x-template.icon> blur-off
+                        <x-icon> blur-off </x-icon> blur-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> blur-radial </x-template.icon> blur-radial
+                        <x-icon> blur-radial </x-icon> blur-radial
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bone </x-template.icon> bone
+                        <x-icon> bone </x-icon> bone
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book </x-template.icon> book
+                        <x-icon> book </x-icon> book
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book-minus </x-template.icon> book-minus
+                        <x-icon> book-minus </x-icon> book-minus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book-multiple </x-template.icon> book-multiple
+                        <x-icon> book-multiple </x-icon> book-multiple
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book-multiple-variant </x-template.icon> book-multiple-variant
+                        <x-icon> book-multiple-variant </x-icon> book-multiple-variant
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book-open </x-template.icon> book-open
+                        <x-icon> book-open </x-icon> book-open
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book-open-page-variant </x-template.icon> book-open-page-variant
+                        <x-icon> book-open-page-variant </x-icon> book-open-page-variant
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book-open-variant </x-template.icon> book-open-variant
+                        <x-icon> book-open-variant </x-icon> book-open-variant
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book-plus </x-template.icon> book-plus
+                        <x-icon> book-plus </x-icon> book-plus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> book-variant </x-template.icon> book-variant
+                        <x-icon> book-variant </x-icon> book-variant
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bookmark </x-template.icon> bookmark
+                        <x-icon> bookmark </x-icon> bookmark
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bookmark-check </x-template.icon> bookmark-check
+                        <x-icon> bookmark-check </x-icon> bookmark-check
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bookmark-music </x-template.icon> bookmark-music
+                        <x-icon> bookmark-music </x-icon> bookmark-music
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bookmark-outline </x-template.icon> bookmark-outline
+                        <x-icon> bookmark-outline </x-icon> bookmark-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bookmark-plus </x-template.icon> bookmark-plus
+                        <x-icon> bookmark-plus </x-icon> bookmark-plus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bookmark-plus-outline </x-template.icon> bookmark-plus-outline
+                        <x-icon> bookmark-plus-outline </x-icon> bookmark-plus-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bookmark-remove </x-template.icon> bookmark-remove
+                        <x-icon> bookmark-remove </x-icon> bookmark-remove
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> boombox </x-template.icon> boombox
+                        <x-icon> boombox </x-icon> boombox
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-all </x-template.icon> border-all
+                        <x-icon> border-all </x-icon> border-all
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-bottom </x-template.icon> border-bottom
+                        <x-icon> border-bottom </x-icon> border-bottom
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-color </x-template.icon> border-color
+                        <x-icon> border-color </x-icon> border-color
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-horizontal </x-template.icon> border-horizontal
+                        <x-icon> border-horizontal </x-icon> border-horizontal
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-inside </x-template.icon> border-inside
+                        <x-icon> border-inside </x-icon> border-inside
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-left </x-template.icon> border-left
+                        <x-icon> border-left </x-icon> border-left
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-none </x-template.icon> border-none
+                        <x-icon> border-none </x-icon> border-none
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-outside </x-template.icon> border-outside
+                        <x-icon> border-outside </x-icon> border-outside
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-right </x-template.icon> border-right
+                        <x-icon> border-right </x-icon> border-right
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-style </x-template.icon> border-style
+                        <x-icon> border-style </x-icon> border-style
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-top </x-template.icon> border-top
+                        <x-icon> border-top </x-icon> border-top
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> border-vertical </x-template.icon> border-vertical
+                        <x-icon> border-vertical </x-icon> border-vertical
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bowl </x-template.icon> bowl
+                        <x-icon> bowl </x-icon> bowl
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bowling </x-template.icon> bowling
+                        <x-icon> bowling </x-icon> bowling
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> box </x-template.icon> box
+                        <x-icon> box </x-icon> box
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> box-cutter </x-template.icon> box-cutter
+                        <x-icon> box-cutter </x-icon> box-cutter
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> box-shadow </x-template.icon> box-shadow
+                        <x-icon> box-shadow </x-icon> box-shadow
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bridge </x-template.icon> bridge
+                        <x-icon> bridge </x-icon> bridge
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> briefcase </x-template.icon> briefcase
+                        <x-icon> briefcase </x-icon> briefcase
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> briefcase-check </x-template.icon> briefcase-check
+                        <x-icon> briefcase-check </x-icon> briefcase-check
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> briefcase-download </x-template.icon> briefcase-download
+                        <x-icon> briefcase-download </x-icon> briefcase-download
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> briefcase-upload </x-template.icon> briefcase-upload
+                        <x-icon> briefcase-upload </x-icon> briefcase-upload
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brightness-1 </x-template.icon> brightness-1
+                        <x-icon> brightness-1 </x-icon> brightness-1
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brightness-2 </x-template.icon> brightness-2
+                        <x-icon> brightness-2 </x-icon> brightness-2
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brightness-3 </x-template.icon> brightness-3
+                        <x-icon> brightness-3 </x-icon> brightness-3
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brightness-4 </x-template.icon> brightness-4
+                        <x-icon> brightness-4 </x-icon> brightness-4
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brightness-5 </x-template.icon> brightness-5
+                        <x-icon> brightness-5 </x-icon> brightness-5
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brightness-6 </x-template.icon> brightness-6
+                        <x-icon> brightness-6 </x-icon> brightness-6
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brightness-7 </x-template.icon> brightness-7
+                        <x-icon> brightness-7 </x-icon> brightness-7
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brightness-auto </x-template.icon> brightness-auto
+                        <x-icon> brightness-auto </x-icon> brightness-auto
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> broom </x-template.icon> broom
+                        <x-icon> broom </x-icon> broom
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> brush </x-template.icon> brush
+                        <x-icon> brush </x-icon> brush
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> buffer </x-template.icon> buffer
+                        <x-icon> buffer </x-icon> buffer
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bug </x-template.icon> bug
+                        <x-icon> bug </x-icon> bug
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bulletin-board </x-template.icon> bulletin-board
+                        <x-icon> bulletin-board </x-icon> bulletin-board
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bullhorn </x-template.icon> bullhorn
+                        <x-icon> bullhorn </x-icon> bullhorn
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bullseye </x-template.icon> bullseye
+                        <x-icon> bullseye </x-icon> bullseye
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bulldozer </x-template.icon> bulldozer
+                        <x-icon> bulldozer </x-icon> bulldozer
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> bus </x-template.icon> bus
+                        <x-icon> bus </x-icon> bus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cached </x-template.icon> cached
+                        <x-icon> cached </x-icon> cached
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cake </x-template.icon> cake
+                        <x-icon> cake </x-icon> cake
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cake-layered </x-template.icon> cake-layered
+                        <x-icon> cake-layered </x-icon> cake-layered
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cake-variant </x-template.icon> cake-variant
+                        <x-icon> cake-variant </x-icon> cake-variant
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calculator </x-template.icon> calculator
+                        <x-icon> calculator </x-icon> calculator
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar </x-template.icon> calendar
+                        <x-icon> calendar </x-icon> calendar
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-blank </x-template.icon> calendar-blank
+                        <x-icon> calendar-blank </x-icon> calendar-blank
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-check </x-template.icon> calendar-check
+                        <x-icon> calendar-check </x-icon> calendar-check
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-clock </x-template.icon> calendar-clock
+                        <x-icon> calendar-clock </x-icon> calendar-clock
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-multiple </x-template.icon> calendar-multiple
+                        <x-icon> calendar-multiple </x-icon> calendar-multiple
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-multiple-check </x-template.icon> calendar-multiple-check
+                        <x-icon> calendar-multiple-check </x-icon> calendar-multiple-check
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-plus </x-template.icon> calendar-plus
+                        <x-icon> calendar-plus </x-icon> calendar-plus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-remove </x-template.icon> calendar-remove
+                        <x-icon> calendar-remove </x-icon> calendar-remove
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-text </x-template.icon> calendar-text
+                        <x-icon> calendar-text </x-icon> calendar-text
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> calendar-today </x-template.icon> calendar-today
+                        <x-icon> calendar-today </x-icon> calendar-today
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> call-made </x-template.icon> call-made
+                        <x-icon> call-made </x-icon> call-made
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> call-merge </x-template.icon> call-merge
+                        <x-icon> call-merge </x-icon> call-merge
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> call-missed </x-template.icon> call-missed
+                        <x-icon> call-missed </x-icon> call-missed
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> call-received </x-template.icon> call-received
+                        <x-icon> call-received </x-icon> call-received
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> call-split </x-template.icon> call-split
+                        <x-icon> call-split </x-icon> call-split
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camcorder </x-template.icon> camcorder
+                        <x-icon> camcorder </x-icon> camcorder
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camcorder-box </x-template.icon> camcorder-box
+                        <x-icon> camcorder-box </x-icon> camcorder-box
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camcorder-box-off </x-template.icon> camcorder-box-off
+                        <x-icon> camcorder-box-off </x-icon> camcorder-box-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camcorder-off </x-template.icon> camcorder-off
+                        <x-icon> camcorder-off </x-icon> camcorder-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera </x-template.icon> camera
+                        <x-icon> camera </x-icon> camera
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-enhance </x-template.icon> camera-enhance
+                        <x-icon> camera-enhance </x-icon> camera-enhance
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-front </x-template.icon> camera-front
+                        <x-icon> camera-front </x-icon> camera-front
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-front-variant </x-template.icon> camera-front-variant
+                        <x-icon> camera-front-variant </x-icon> camera-front-variant
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-iris </x-template.icon> camera-iris
+                        <x-icon> camera-iris </x-icon> camera-iris
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-off </x-template.icon> camera-off
+                        <x-icon> camera-off </x-icon> camera-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-party-mode </x-template.icon> camera-party-mode
+                        <x-icon> camera-party-mode </x-icon> camera-party-mode
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-rear </x-template.icon> camera-rear
+                        <x-icon> camera-rear </x-icon> camera-rear
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-rear-variant </x-template.icon> camera-rear-variant
+                        <x-icon> camera-rear-variant </x-icon> camera-rear-variant
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-switch </x-template.icon> camera-switch
+                        <x-icon> camera-switch </x-icon> camera-switch
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> camera-timer </x-template.icon> camera-timer
+                        <x-icon> camera-timer </x-icon> camera-timer
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> candle </x-template.icon> candle
+                        <x-icon> candle </x-icon> candle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> candycane </x-template.icon> candycane
+                        <x-icon> candycane </x-icon> candycane
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> car </x-template.icon> car
+                        <x-icon> car </x-icon> car
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> car-battery </x-template.icon> car-battery
+                        <x-icon> car-battery </x-icon> car-battery
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> car-connected </x-template.icon> car-connected
+                        <x-icon> car-connected </x-icon> car-connected
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> car-wash </x-template.icon> car-wash
+                        <x-icon> car-wash </x-icon> car-wash
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cards </x-template.icon> cards
+                        <x-icon> cards </x-icon> cards
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cards-outline </x-template.icon> cards-outline
+                        <x-icon> cards-outline </x-icon> cards-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cards-playing-outline </x-template.icon> cards-playing-outline
+                        <x-icon> cards-playing-outline </x-icon> cards-playing-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> carrot </x-template.icon> carrot
+                        <x-icon> carrot </x-icon> carrot
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cart </x-template.icon> cart
+                        <x-icon> cart </x-icon> cart
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cart-off </x-template.icon> cart-off
+                        <x-icon> cart-off </x-icon> cart-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cart-outline </x-template.icon> cart-outline
+                        <x-icon> cart-outline </x-icon> cart-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cart-plus </x-template.icon> cart-plus
+                        <x-icon> cart-plus </x-icon> cart-plus
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> case-sensitive-alt </x-template.icon> case-sensitive-alt
+                        <x-icon> case-sensitive-alt </x-icon> case-sensitive-alt
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cash </x-template.icon> cash
+                        <x-icon> cash </x-icon> cash
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cash-100 </x-template.icon> cash-100
+                        <x-icon> cash-100 </x-icon> cash-100
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cash-multiple </x-template.icon> cash-multiple
+                        <x-icon> cash-multiple </x-icon> cash-multiple
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cash-usd </x-template.icon> cash-usd
+                        <x-icon> cash-usd </x-icon> cash-usd
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cast </x-template.icon> cast
+                        <x-icon> cast </x-icon> cast
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cast-connected </x-template.icon> cast-connected
+                        <x-icon> cast-connected </x-icon> cast-connected
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> castle </x-template.icon> castle
+                        <x-icon> castle </x-icon> castle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cat </x-template.icon> cat
+                        <x-icon> cat </x-icon> cat
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cellphone </x-template.icon> cellphone
+                        <x-icon> cellphone </x-icon> cellphone
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cellphone-android </x-template.icon> cellphone-android
+                        <x-icon> cellphone-android </x-icon> cellphone-android
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cellphone-basic </x-template.icon> cellphone-basic
+                        <x-icon> cellphone-basic </x-icon> cellphone-basic
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cellphone-dock </x-template.icon> cellphone-dock
+                        <x-icon> cellphone-dock </x-icon> cellphone-dock
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cellphone-iphone </x-template.icon> cellphone-iphone
+                        <x-icon> cellphone-iphone </x-icon> cellphone-iphone
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cellphone-link </x-template.icon> cellphone-link
+                        <x-icon> cellphone-link </x-icon> cellphone-link
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cellphone-link-off </x-template.icon> cellphone-link-off
+                        <x-icon> cellphone-link-off </x-icon> cellphone-link-off
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cellphone-settings </x-template.icon> cellphone-settings
+                        <x-icon> cellphone-settings </x-icon> cellphone-settings
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> certificate </x-template.icon> certificate
+                        <x-icon> certificate </x-icon> certificate
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chair-school </x-template.icon> chair-school
+                        <x-icon> chair-school </x-icon> chair-school
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chart-arc </x-template.icon> chart-arc
+                        <x-icon> chart-arc </x-icon> chart-arc
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chart-areaspline </x-template.icon> chart-areaspline
+                        <x-icon> chart-areaspline </x-icon> chart-areaspline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chart-bar </x-template.icon> chart-bar
+                        <x-icon> chart-bar </x-icon> chart-bar
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chart-bubble </x-template.icon> chart-bubble
+                        <x-icon> chart-bubble </x-icon> chart-bubble
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chart-gantt </x-template.icon> chart-gantt
+                        <x-icon> chart-gantt </x-icon> chart-gantt
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chart-histogram </x-template.icon> chart-histogram
+                        <x-icon> chart-histogram </x-icon> chart-histogram
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chart-line </x-template.icon> chart-line
+                        <x-icon> chart-line </x-icon> chart-line
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chart-pie </x-template.icon> chart-pie
+                        <x-icon> chart-pie </x-icon> chart-pie
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> check </x-template.icon> check
+                        <x-icon> check </x-icon> check
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> check-all </x-template.icon> check-all
+                        <x-icon> check-all </x-icon> check-all
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> check-circle </x-template.icon> check-circle
+                        <x-icon> check-circle </x-icon> check-circle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> check-circle-outline </x-template.icon> check-circle-outline
+                        <x-icon> check-circle-outline </x-icon> check-circle-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-blank </x-template.icon> checkbox-blank
+                        <x-icon> checkbox-blank </x-icon> checkbox-blank
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-blank-circle </x-template.icon> checkbox-blank-circle
+                        <x-icon> checkbox-blank-circle </x-icon> checkbox-blank-circle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-blank-circle-outline </x-template.icon> checkbox-blank-circle-outline
+                        <x-icon> checkbox-blank-circle-outline </x-icon> checkbox-blank-circle-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-blank-outline </x-template.icon> checkbox-blank-outline
+                        <x-icon> checkbox-blank-outline </x-icon> checkbox-blank-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-marked </x-template.icon> checkbox-marked
+                        <x-icon> checkbox-marked </x-icon> checkbox-marked
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-marked-circle </x-template.icon> checkbox-marked-circle
+                        <x-icon> checkbox-marked-circle </x-icon> checkbox-marked-circle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-marked-circle-outline </x-template.icon> checkbox-marked-circle-outline
+                        <x-icon> checkbox-marked-circle-outline </x-icon> checkbox-marked-circle-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-marked-outline </x-template.icon> checkbox-marked-outline
+                        <x-icon> checkbox-marked-outline </x-icon> checkbox-marked-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-multiple-blank </x-template.icon> checkbox-multiple-blank
+                        <x-icon> checkbox-multiple-blank </x-icon> checkbox-multiple-blank
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-multiple-blank-circle </x-template.icon> checkbox-multiple-blank-circle
+                        <x-icon> checkbox-multiple-blank-circle </x-icon> checkbox-multiple-blank-circle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-multiple-blank-circle-outline </x-template.icon> checkbox-multiple-blank-circle-outline
+                        <x-icon> checkbox-multiple-blank-circle-outline </x-icon> checkbox-multiple-blank-circle-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-multiple-blank-outline </x-template.icon> checkbox-multiple-blank-outline
+                        <x-icon> checkbox-multiple-blank-outline </x-icon> checkbox-multiple-blank-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-multiple-marked </x-template.icon> checkbox-multiple-marked
+                        <x-icon> checkbox-multiple-marked </x-icon> checkbox-multiple-marked
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-multiple-marked-circle </x-template.icon> checkbox-multiple-marked-circle
+                        <x-icon> checkbox-multiple-marked-circle </x-icon> checkbox-multiple-marked-circle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-multiple-marked-circle-outline </x-template.icon> checkbox-multiple-marked-circle-outline
+                        <x-icon> checkbox-multiple-marked-circle-outline </x-icon> checkbox-multiple-marked-circle-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkbox-multiple-marked-outline </x-template.icon> checkbox-multiple-marked-outline
+                        <x-icon> checkbox-multiple-marked-outline </x-icon> checkbox-multiple-marked-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> checkerboard </x-template.icon> checkerboard
+                        <x-icon> checkerboard </x-icon> checkerboard
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chemical-weapon </x-template.icon> chemical-weapon
+                        <x-icon> chemical-weapon </x-icon> chemical-weapon
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chemical-weapon </x-template.icon> chemical-weapon
+                        <x-icon> chemical-weapon </x-icon> chemical-weapon
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chevron-double-down </x-template.icon> chevron-double-down
+                        <x-icon> chevron-double-down </x-icon> chevron-double-down
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chevron-double-left </x-template.icon> chevron-double-left
+                        <x-icon> chevron-double-left </x-icon> chevron-double-left
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chevron-double-right </x-template.icon> chevron-double-right
+                        <x-icon> chevron-double-right </x-icon> chevron-double-right
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chevron-double-up </x-template.icon> chevron-double-up
+                        <x-icon> chevron-double-up </x-icon> chevron-double-up
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chevron-down </x-template.icon> chevron-down
+                        <x-icon> chevron-down </x-icon> chevron-down
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chevron-left </x-template.icon> chevron-left
+                        <x-icon> chevron-left </x-icon> chevron-left
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chevron-right </x-template.icon> chevron-right
+                        <x-icon> chevron-right </x-icon> chevron-right
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chevron-up </x-template.icon> chevron-up
+                        <x-icon> chevron-up </x-icon> chevron-up
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> chip </x-template.icon> chip
+                        <x-icon> chip </x-icon> chip
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> church </x-template.icon> church
+                        <x-icon> church </x-icon> church
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cisco-webex </x-template.icon> cisco-webex
+                        <x-icon> cisco-webex </x-icon> cisco-webex
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> city </x-template.icon> city
+                        <x-icon> city </x-icon> city
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clipboard </x-template.icon> clipboard
+                        <x-icon> clipboard </x-icon> clipboard
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clipboard-account </x-template.icon> clipboard-account
+                        <x-icon> clipboard-account </x-icon> clipboard-account
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clipboard-alert </x-template.icon> clipboard-alert
+                        <x-icon> clipboard-alert </x-icon> clipboard-alert
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clipboard-arrow-down </x-template.icon> clipboard-arrow-down
+                        <x-icon> clipboard-arrow-down </x-icon> clipboard-arrow-down
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clipboard-arrow-left </x-template.icon> clipboard-arrow-left
+                        <x-icon> clipboard-arrow-left </x-icon> clipboard-arrow-left
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clipboard-check </x-template.icon> clipboard-check
+                        <x-icon> clipboard-check </x-icon> clipboard-check
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clipboard-outline </x-template.icon> clipboard-outline
+                        <x-icon> clipboard-outline </x-icon> clipboard-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clipboard-text </x-template.icon> clipboard-text
+                        <x-icon> clipboard-text </x-icon> clipboard-text
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clippy </x-template.icon> clippy
+                        <x-icon> clippy </x-icon> clippy
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clock </x-template.icon> clock
+                        <x-icon> clock </x-icon> clock
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clock-alert </x-template.icon> clock-alert
+                        <x-icon> clock-alert </x-icon> clock-alert
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clock-end </x-template.icon> clock-end
+                        <x-icon> clock-end </x-icon> clock-end
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clock-fast </x-template.icon> clock-fast
+                        <x-icon> clock-fast </x-icon> clock-fast
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clock-in </x-template.icon> clock-in
+                        <x-icon> clock-in </x-icon> clock-in
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clock-out </x-template.icon> clock-out
+                        <x-icon> clock-out </x-icon> clock-out
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> clock-start </x-template.icon> clock-start
+                        <x-icon> clock-start </x-icon> clock-start
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> close </x-template.icon> close
+                        <x-icon> close </x-icon> close
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> close-box </x-template.icon> close-box
+                        <x-icon> close-box </x-icon> close-box
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> close-box-outline </x-template.icon> close-box-outline
+                        <x-icon> close-box-outline </x-icon> close-box-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> close-circle </x-template.icon> close-circle
+                        <x-icon> close-circle </x-icon> close-circle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> close-circle-outline </x-template.icon> close-circle-outline
+                        <x-icon> close-circle-outline </x-icon> close-circle-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> close-network </x-template.icon> close-network
+                        <x-icon> close-network </x-icon> close-network
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> close-octagon </x-template.icon> close-octagon
+                        <x-icon> close-octagon </x-icon> close-octagon
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> close-octagon-outline </x-template.icon> close-octagon-outline
+                        <x-icon> close-octagon-outline </x-icon> close-octagon-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> closed-caption </x-template.icon> closed-caption
+                        <x-icon> closed-caption </x-icon> closed-caption
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud </x-template.icon> cloud
+                        <x-icon> cloud </x-icon> cloud
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-check </x-template.icon> cloud-check
+                        <x-icon> cloud-check </x-icon> cloud-check
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-circle </x-template.icon> cloud-circle
+                        <x-icon> cloud-circle </x-icon> cloud-circle
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-download </x-template.icon> cloud-download
+                        <x-icon> cloud-download </x-icon> cloud-download
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-outline </x-template.icon> cloud-outline
+                        <x-icon> cloud-outline </x-icon> cloud-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-outline </x-template.icon> cloud-outline
+                        <x-icon> cloud-outline </x-icon> cloud-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-print </x-template.icon> cloud-print
+                        <x-icon> cloud-print </x-icon> cloud-print
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-print-outline </x-template.icon> cloud-print-outline
+                        <x-icon> cloud-print-outline </x-icon> cloud-print-outline
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-sync </x-template.icon> cloud-sync
+                        <x-icon> cloud-sync </x-icon> cloud-sync
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> cloud-upload </x-template.icon> cloud-upload
+                        <x-icon> cloud-upload </x-icon> cloud-upload
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-array </x-template.icon> code-array
+                        <x-icon> code-array </x-icon> code-array
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-braces </x-template.icon> code-braces
+                        <x-icon> code-braces </x-icon> code-braces
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-brackets </x-template.icon> code-brackets
+                        <x-icon> code-brackets </x-icon> code-brackets
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-equal </x-template.icon> code-equal
+                        <x-icon> code-equal </x-icon> code-equal
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-greater-than </x-template.icon> code-greater-than
+                        <x-icon> code-greater-than </x-icon> code-greater-than
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-greater-than-or-equal </x-template.icon> code-greater-than-or-equal
+                        <x-icon> code-greater-than-or-equal </x-icon> code-greater-than-or-equal
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-less-than </x-template.icon> code-less-than
+                        <x-icon> code-less-than </x-icon> code-less-than
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-less-than-or-equal </x-template.icon> code-less-than-or-equal
+                        <x-icon> code-less-than-or-equal </x-icon> code-less-than-or-equal
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-not-equal </x-template.icon> code-not-equal
+                        <x-icon> code-not-equal </x-icon> code-not-equal
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-not-equal-variant </x-template.icon> code-not-equal-variant
+                        <x-icon> code-not-equal-variant </x-icon> code-not-equal-variant
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-parentheses </x-template.icon> code-parentheses
+                        <x-icon> code-parentheses </x-icon> code-parentheses
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-string </x-template.icon> code-string
+                        <x-icon> code-string </x-icon> code-string
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> code-tags </x-template.icon> code-tags
+                        <x-icon> code-tags </x-icon> code-tags
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> codepen </x-template.icon> codepen
+                        <x-icon> codepen </x-icon> codepen
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> coffee </x-template.icon> coffee
+                        <x-icon> coffee </x-icon> coffee
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <x-template.icon> coffee-to-go </x-template.icon> coffee-to-go
+                        <x-icon> coffee-to-go </x-icon> coffee-to-go
                     </div>
 
 
@@ -4621,7 +4621,7 @@
                         <i class="mdi mdi-zip-box"></i> zip-box
                     </div>
                 </div>
-            </x-template.card-body>
-        </x-template.card>
+            </x-card-body>
+        </x-card>
     </div>
 </div>

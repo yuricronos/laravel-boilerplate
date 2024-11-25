@@ -1,4 +1,4 @@
-<x-action-section>
+<x-deprecated.action-section>
     <x-slot name="title">
         {{ __('Two Factor Authentication') }}
     </x-slot>
@@ -50,11 +50,9 @@
 
                 @if ($showingConfirmation)
                     <div class="mt-4">
-                        <x-label for="code" value="{{ __('Code') }}" />
+                        {{-- <x-deprecated.label for="code" value="{{ __('Code') }}" /> --}}
 
-                        <x-input id="code" type="text" name="code" class="block mt-1 w-1/2" inputmode="numeric" autofocus autocomplete="one-time-code"
-                            wire:model="code"
-                            wire:keydown.enter="confirmTwoFactorAuthentication" />
+                        <x-input id="code" type="text" text="Code" name="code" class="block mt-1 w-1/2" inputmode="numeric" autofocus autocomplete="one-time-code" wire:model="code" wire:keydown.enter="confirmTwoFactorAuthentication" />
 
                         <x-input-error for="code" class="mt-2" />
                     </div>
@@ -77,48 +75,50 @@
         @endif
 
         <div class="mt-5">
-            @if (! $this->enabled)
-                <x-confirms-password wire:then="enableTwoFactorAuthentication">
-                    <x-button type="button" wire:loading.attr="disabled">
+            @if (!$this->enabled)
+                <x-deprecated.confirms-password wire:then="enableTwoFactorAuthentication">
+                    <x-button type="button" color="primary" wire:loading.attr="disabled">
                         {{ __('Enable') }}
                     </x-button>
-                </x-confirms-password>
+                </x-deprecated.confirms-password>
             @else
                 @if ($showingRecoveryCodes)
-                    <x-confirms-password wire:then="regenerateRecoveryCodes">
-                        <x-secondary-button class="me-3">
+                    <x-deprecated.confirms-password wire:then="regenerateRecoveryCodes">
+                        <x-button color="info" class="me-3">
                             {{ __('Regenerate Recovery Codes') }}
-                        </x-secondary-button>
-                    </x-confirms-password>
+                        </x-button>
+                    </x-deprecated.confirms-password>
                 @elseif ($showingConfirmation)
-                    <x-confirms-password wire:then="confirmTwoFactorAuthentication">
-                        <x-button type="button" class="me-3" wire:loading.attr="disabled">
+                    <x-deprecated.confirms-password wire:then="confirmTwoFactorAuthentication">
+                        <x-button color="primary" type="button" class="me-3" wire:loading.attr="disabled">
                             {{ __('Confirm') }}
                         </x-button>
-                    </x-confirms-password>
+                    </x-deprecated.confirms-password>
                 @else
-                    <x-confirms-password wire:then="showRecoveryCodes">
-                        <x-secondary-button class="me-3">
+                    <x-deprecated.confirms-password wire:then="showRecoveryCodes">
+                        {{-- <x-deprecated.secondary-button class="me-3"> --}}
+                        <x-button type="button" color="primary" class="me-3">
                             {{ __('Show Recovery Codes') }}
-                        </x-secondary-button>
-                    </x-confirms-password>
+                        </x-button>
+                        {{-- </x-deprecated.secondary-button> --}}
+                    </x-deprecated.confirms-password>
                 @endif
 
                 @if ($showingConfirmation)
-                    <x-confirms-password wire:then="disableTwoFactorAuthentication">
-                        <x-secondary-button wire:loading.attr="disabled">
+                    <x-deprecated.confirms-password wire:then="disableTwoFactorAuthentication">
+                        <x-button color="secondary" wire:loading.attr="disabled">
                             {{ __('Cancel') }}
-                        </x-secondary-button>
-                    </x-confirms-password>
+                        </x-button>
+                    </x-deprecated.confirms-password>
                 @else
-                    <x-confirms-password wire:then="disableTwoFactorAuthentication">
-                        <x-danger-button wire:loading.attr="disabled">
+                    <x-deprecated.confirms-password wire:then="disableTwoFactorAuthentication">
+                        <x-button color="danger" wire:loading.attr="disabled">
                             {{ __('Disable') }}
-                        </x-danger-button>
-                    </x-confirms-password>
+                        </x-button>
+                    </x-deprecated.confirms-password>
                 @endif
 
             @endif
         </div>
     </x-slot>
-</x-action-section>
+</x-deprecated.action-section>

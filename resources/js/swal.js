@@ -15,6 +15,20 @@ let swalFireConfirmed = (args) => {
     });
 };
 
+let swalFireError = (args) => {
+    Swal.fire({
+        title: args.title ?? "Error",
+        text: args.text,
+        icon: "error",
+        showClass: {
+            popup: `animate__animated animate__bounceIn animate__fast`
+        },
+        hideClass: {
+            popup: `animate__animated animate__bounceOut animate__fast`
+        }
+    });
+};
+
 $(document).ready(() => {
 
     let initConfig = () => {
@@ -63,4 +77,11 @@ $(document).ready(() => {
 
 document.addEventListener('livewire:init', () => {
     Livewire.on('SwalConfirmed', (args) => swalFireConfirmed(args[0]));
+    Livewire.on('SwalError', (args) => swalFireError(args[0]));
+    Livewire.on('SwalConfirmation', (args) => {
+        window.SwalConfig.icon = args[2].icon ?? "warning";
+        window.SwalConfig.title = args[2].title;
+        window.SwalConfig.text = args[2].text ?? "";
+        window.SwalConfirmation(() => Livewire.dispatch(args[0], [args[1], true]));
+    });
 });

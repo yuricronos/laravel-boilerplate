@@ -1,4 +1,4 @@
-<div class="card-body">
+<div {!! $attributes->merge(['class' => 'card-body']) !!}>
     @if(isset($title))
     <h4 class="card-title"> {{ $title }} </h4>
     @endif

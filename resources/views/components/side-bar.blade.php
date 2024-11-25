@@ -34,7 +34,7 @@
                 <div class="border-bottom">
                     <h6 class="font-weight-normal mb-3">Projects</h6>
                 </div>
-                <x-template.button color="primary" variant="gradient" size="lg" :block="true" class="mt-4"> + Add a project </x-template.button>
+                <x-button color="primary" variant="gradient" size="lg" :block="true" class="mt-4"> + Add a project </x-button>
                 <div class="mt-4">
                     <div class="border-bottom">
                         <p class="text-secondary">Categories</p>

@@ -1,51 +1,51 @@
 <div class="row">
     <div class="col-md-6 grid-margin stretch-card">
-        <x-template.card>
-            <x-template.card-body>
+        <x-card>
+            <x-card-body>
                 <x-slot name="title">Default form</x-slot>
                 <x-slot name="description"> Basic form layout </x-slot>
-                <x-template.form>
-                    <x-template.input type="text" text="{{ __('Username') }}" name="username" placeholder="Username" />
-                    <x-template.input type="email" text="{{ __('Email address') }}" name="email" placeholder="Email" />
-                    <x-template.input type="password" text="{{ __('Password') }}" name="password" placeholder="Password" />
-                    <x-template.input type="password" text="{{ __('Confirm Password') }}" name="confirmPassword" placeholder="Confirm password" />
-                    <x-template.checkbox text="{{ __('Remember me') }}" />
-                    <x-template.button type="submit" color="primary" variant="gradient" class="me-2"> {{ __('Submit') }} </x-template.button>
-                    <x-template.button color="light">Cancel</x-template.button>
-                </x-template.form>
-            </x-template.card-body>
-        </x-template.card>
+                <x-form>
+                    <x-input type="text" text="{{ __('Username') }}" name="username" placeholder="Username" />
+                    <x-input type="email" text="{{ __('Email address') }}" name="email" placeholder="Email" />
+                    <x-input type="password" text="{{ __('Password') }}" name="password" placeholder="Password" />
+                    <x-input type="password" text="{{ __('Confirm Password') }}" name="confirmPassword" placeholder="Confirm password" />
+                    <x-checkbox text="{{ __('Remember me') }}" />
+                    <x-button type="submit" color="primary" variant="gradient" class="me-2"> {{ __('Submit') }} </x-button>
+                    <x-button color="light">Cancel</x-button>
+                </x-form>
+            </x-card-body>
+        </x-card>
     </div>
 
     <div class="col-md-6 grid-margin stretch-card">
-        <x-template.card>
-            <x-template.card-body>
+        <x-card>
+            <x-card-body>
                 <x-slot name="title">Horizontal Form</x-slot>
                 <x-slot name="description"> Horizontal form layout </x-slot>
-                <x-template.form>
-                    <x-template.input view="horizontal" text="{{ __('Username') }}" placeholder="username" />
-                    <x-template.input view="horizontal" text="{{ __('Email') }}" type="email" placeholder="Email"/>
-                    <x-template.input view="horizontal" text="{{ __('Mobile') }}" type="number" placeholder="Mobile"/>
-                    <x-template.input view="horizontal" text="{{ __('Password') }}" type="password" placeholder="Password"/>
-                    <x-template.input view="horizontal" text="{{ __('Re Password') }}" type="password" placeholder="Re password"/>
-                    <x-template.checkbox text="{{ __('Remember me') }}"/>
-                    <x-template.button type="submit" color="primary" variant="gradient" class="me-2"> {{ __('Submit') }} </x-template.button>
-                    <x-template.button color="light"> {{ __('Cancel') }} </x-template.button>
-                </x-template.form>
-            </x-template.card-body>
-        </x-template.card>
+                <x-form>
+                    <x-input view="horizontal" text="{{ __('Username') }}" placeholder="username" />
+                    <x-input view="horizontal" text="{{ __('Email') }}" type="email" placeholder="Email"/>
+                    <x-input view="horizontal" text="{{ __('Mobile') }}" type="number" placeholder="Mobile"/>
+                    <x-input view="horizontal" text="{{ __('Password') }}" type="password" placeholder="Password"/>
+                    <x-input view="horizontal" text="{{ __('Re Password') }}" type="password" placeholder="Re password"/>
+                    <x-checkbox text="{{ __('Remember me') }}"/>
+                    <x-button type="submit" color="primary" variant="gradient" class="me-2"> {{ __('Submit') }} </x-button>
+                    <x-button color="light"> {{ __('Cancel') }} </x-button>
+                </x-form>
+            </x-card-body>
+        </x-card>
     </div>
 
     <div class="col-12 grid-margin stretch-card">
-        <x-template.card>
-            <x-template.card-body>
+        <x-card>
+            <x-card-body>
                 <x-slot name="title">Basic form elements</x-slot>
                 <x-slot name="description"> Basic form elements </x-slot>
-                <x-template.form>
-                    <x-template.input type="text" text="{{ __('Name') }}" placeholder="Name"/>
-                    <x-template.input type="email" text="{{ __('Email address') }}" placeholder="Email"/>
-                    <x-template.input type="password" text="{{ __('Password') }}" placeholder="Password"/>
-                    <x-template.select text="{{ __('Gender') }}" :options="[0=>'Male', 1=>'Female']" />
+                <x-form>
+                    <x-input type="text" text="{{ __('Name') }}" placeholder="Name"/>
+                    <x-input type="email" text="{{ __('Email address') }}" placeholder="Email"/>
+                    <x-input type="password" text="{{ __('Password') }}" placeholder="Password"/>
+                    <x-select text="{{ __('Gender') }}" :options="[0=>'Male', 1=>'Female']" />
                     <div class="form-group">
                         <label>File upload</label>
                         <input type="file" name="img[]" class="file-upload-default">
@@ -66,9 +66,9 @@
                     </div>
                     <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
                     <button class="btn btn-light">Cancel</button>
-                </x-template.form>
-            </x-template.card-body>
-        </x-template.card>
+                </x-form>
+            </x-card-body>
+        </x-card>
     </div>
 
     <div class="col-md-6 grid-margin stretch-card">

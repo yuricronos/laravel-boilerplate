@@ -1,7 +1,7 @@
 <x-guest-layout>
-    <x-authentication-card>
+    <x-deprecated.authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <x-deprecated.authentication-card-logo />
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
@@ -41,5 +41,5 @@
                 </form>
             </div>
         </div>
-    </x-authentication-card>
+    </x-deprecated.authentication-card>
 </x-guest-layout>

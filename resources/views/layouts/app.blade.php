@@ -33,14 +33,14 @@
 </head>
 
 <body class="font-sans antialiased">
-    <x-banner />
+    <x-deprecated.banner />
 
     <div class="container-scroller">
         @livewire('nav-bar', ['navMenu' => $navMenu])
 
         <div class="container-fluid page-body-wrapper">
 
-            <x-template.side-bar :sidebar="$sideBar" />
+            <x-side-bar :sidebar="$sideBar" />
 
             <div class="main-panel">
                 <div class="content-wrapper">
@@ -51,7 +51,7 @@
 
                 </div>
 
-                <x-template.footer />
+                <x-footer />
 
             </div>
 

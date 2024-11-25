@@ -1,4 +1,5 @@
 import { Notyf } from "notyf";
+import 'notyf/notyf.min.css';
 
 const notyf = new Notyf({
     duration: 2000,
@@ -33,6 +34,8 @@ document.addEventListener('livewire:init', () => {
     };
     Livewire.on('toast', (args) => toast[args[0]['type']](args[0]['message']));
     Livewire.on('hideModal', (args) => $(`#${args[0]}`).modal('hide'));
+    Livewire.on('showModal', (args) => $(`#${args[0]}`).modal('show'));
+    Livewire.on('consoleLog', (args) => (args.length > 1) ? console.log(args[0], args[1]) : console.log(args[0]));
     window.toast = (args) => toast[args['type']](args['message']);
 });
 

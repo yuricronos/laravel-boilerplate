@@ -13,11 +13,11 @@
 
     <div class="row">
         <div class="col-lg-6 grid-margin stretch-card">
-            <x-template.card>
-                <x-template.card-body>
+            <x-card>
+                <x-card-body>
                     <x-slot name="title">Basic Table</x-slot>
                     <x-slot name="description"> Add class <code>.table</code> </x-slot>
-                    <x-template.table :head="['Profile', 'VatNo.', 'Created', 'Status']">
+                    <x-table :head="['Profile', 'VatNo.', 'Created', 'Status']">
                         <tr>
                             <td>Jacob</td>
                             <td>53275531</td>
@@ -48,9 +48,9 @@
                             <td>20 May 2017</td>
                             <td><label class="badge badge-warning">In progress</label></td>
                         </tr>
-                    </x-template.table>
-                </x-template.card-body>
-            </x-template.card>
+                    </x-table>
+                </x-card-body>
+            </x-card>
         </div>
 
         <div class="col-lg-6 grid-margin stretch-card">

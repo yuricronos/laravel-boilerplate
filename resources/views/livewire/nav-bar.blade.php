@@ -131,12 +131,12 @@
                     @if(isset($navMenu['profile']['item']))
                         @foreach($navMenu['profile']['item'] as $profileItem)
                             @role($profileItem['role'])
-                                <a class="dropdown-item" href="@href($profileItem)"> <x-template.icon class="me-2"> {{ $profileItem['icon'] }} </x-template.icon> {{ $profileItem['name'] }} </a>
+                                <a class="dropdown-item" href="@href($profileItem)"> <x-icon class="me-2"> {{ $profileItem['icon'] }} </x-icon> {{ $profileItem['name'] }} </a>
                             @endrole
                         @endforeach
                     @endif
 
-                    <a class="dropdown-item" href="{{ route('profile.show') }}"> <x-template.icon class="me-2"> face </x-template.icon> Profile </a>
+                    <a class="dropdown-item" href="{{ route('profile.show') }}"> <x-icon class="me-2"> face </x-icon> Profile </a>
 
                     <div class="dropdown-divider"></div>
 

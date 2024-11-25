@@ -1,1 +1,5 @@
-<input type="checkbox" {!! $attributes->merge(['class' => 'rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500']) !!}>
+<div class="form-check form-check-flat form-check-primary">
+    <label class="form-check-label">
+        <input type="checkbox" class="form-check-input"> {{ $text }}
+    </label>
+</div>

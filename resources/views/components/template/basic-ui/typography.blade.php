@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-6 grid-margin stretch-card">
-        <x-template.card>
-            <x-template.card-body>
+        <x-card>
+            <x-card-body>
                 <x-slot name="title">Headings</x-slot>
                 <x-slot name="description"> Add tags <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> or class <code>.h1</code> to <code>.h6</code> </x-slot>
                 <h1>h1. Heading</h1>
@@ -10,12 +10,12 @@
                 <h4>h4. Heading</h4>
                 <h5>h5. Heading</h5>
                 <h6>h6. Heading</h6>
-            </x-template.card-body>
-        </x-template.card>
+            </x-card-body>
+        </x-card>
     </div>
     <div class="col-md-6 grid-margin stretch-card">
-        <x-template.card>
-            <x-template.card-body>
+        <x-card>
+            <x-card-body>
                 <x-slot name="title">Headings with secondary text</x-slot>
                 <x-slot name="description"> Add faded secondary text to headings </x-slot>
                 <h1> h1. Heading <small class="text-muted"> Secondary text </small>
@@ -30,8 +30,8 @@
                 </h5>
                 <h6> h6. Heading <small class="text-muted"> Secondary text </small>
                 </h6>
-            </x-template.card-body>
-        </x-template.card>
+            </x-card-body>
+        </x-card>
     </div>
     <div class="col-md-6 grid-margin stretch-card">
         <div class="card">
