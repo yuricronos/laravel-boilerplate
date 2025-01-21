@@ -20,8 +20,11 @@ class Authentication
         }
     }
 
-    private static function validationMessage(User $user)
+    private static function validationMessage(User|null $user)
     {
+        if ($user == null) {
+            throw ValidationException::withMessages([Fortify::username() => 'account not found.']);
+        }
         if ($user->email_verified_at != null) {
             return $user;
         }
