@@ -4,6 +4,7 @@
 ### Quick Links
 - [Installation](README.md)
 - [Dynamic Sidebar](flavors/sidebar.md)
+- [Third Party Api Service](flavors/apiservice.md)
 <br/> <br/>
 
 This is a Laravel boilerplate application designed to simplify the setup process for new projects. Follow the steps below to get your application up and running.
